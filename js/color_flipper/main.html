@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color flip</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+        button {
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 15px;
+            width: 110px;
+            height: 40px;
+        }
+        #green {
+            background-color: green;
+        }
+        #red {
+            background-color: red;
+        }
+        #blue {
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>color flip</h1>
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button onclick="randomColor()">Random</button>
+    <script src="index.js"></script>
+</body>
+</html>
